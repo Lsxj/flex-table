@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Table Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/table.css">
+</head>
+<body>
+	<table class="flex_table" id="demo">
+		<tr class="table-header">
+			<th name = "Column1" data-priority="2">Column1</th>
+			<th name = "Column2" data-priority="5">Column2</th>
+			<th name = "Column3" data-priority="4">Column3</th>
+			<th name = "Column4" data-priority="3">Column4</th>
+			<th name = "Column5" data-priority="1">Column5</th>
+		</tr>
+		<tr>
+			<td name = "Column1">Column1 verawl faslngwelk vosdcnoisdv nwdenvoiavadslkvn asdlkfnklas hvasohowhf cdlkxvncasdl kvnaksdlg hklas jfsaldvnla fsdgnskladg alsdijvoxvs kgnkldfshli afjwefjwamgn sakd gvnsdklfjas dlfwa ogjsdnvla sngvkl</td>
+			<td name = "Column2">Column2</td>
+			<td name = "Column3">Column3</td>
+			<td name = "Column4">Column4test test tesdgsdb dfbhergfsc gfegvadvzsge bergs gsd gwegebv dvwg awbveg gdfaegwger grvfrevbs</td>
+			<td name = "Column5">Column5</td>
+		</tr>
+		<tr>
+			<td name = "Column1">Column1</td>
+			<td name = "Column2">Column2</td>
+			<td name = "Column3">Column3</td>
+			<td name = "Column4">Column4</td>
+			<td name = "Column5">Column5</td>
+		</tr>
+	</table>
+	<ul class="header_menu empty">
+		<li class="header_menu_all"><input type="checkbox" name="all" checked="checked">
+		<label class="pointer" for="all">All</label></li>
+	</ul>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/flex-table.js"></script>
+	<script type="text/javascript">
+		var table = new FlexTable({
+			table: "#demo",
+			maxColNum: 6,
+			headerMenu: ".header_menu",
+			colgroup: ".table-header"
+		});
+		table.initialize();
+	</script>
+</body>
+</html>
