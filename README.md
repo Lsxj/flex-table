@@ -1,22 +1,26 @@
 # jQuery FlexTable
 ---
 jQuery FlexTable is a simple table library that help you create a flex table.
-It was inspired by https://dribbble.com/shots/1903644-Data-Grid/attachments/325113
+It was inspired by https://dribbble.com/shots/1903644-Data-Grid/attachments/325113.
 See it in action here: http://lsxj.github.com/flex-table/example.html
+
+
 
 # Usage
 ---
 jQuery FlexTable requires a specific HTML structure in order to work. There is also a small stylesheet that can be used. jQuery is a dependency.
 
-`<head>
+```
+<head>
    <script type='text/javascript' charset='utf-8' src='jquery.js'></script>
    <script type='text/javascript' charset='utf-8' src='flex-table.js'></script>
-   <link rel='stylesheet' href='popbox.css' type='text/css'>
- </head>`
+   <link rel='stylesheet' href='flextable.css' type='text/css'>
+ </head>
+```
 
 The HTML structure looks like this.
 
-`
+```
 <table id='demo'>
     <tr class="table-header">
         <th name = "Column1" data-priority="2">Company</th>
@@ -33,10 +37,11 @@ The HTML structure looks like this.
         <td name = "Column5">Column5</td>
     </tr>
 </table>
-`
+```
 
 Invoke the plugin by calling it on a selector like normal.
-`
+
+```
 <script type='text/javascript'>
    $(document).ready(function(){
      var table = new FlexTable({
@@ -48,14 +53,14 @@ Invoke the plugin by calling it on a selector like normal.
     table.initialize();
    });
 </script>
-`
+```
 
 License
 ---
 
 MIT License
 
-Copyright (c) [2018] [Shi Xuejia]
+Copyright (c) [2018][Shi Xuejia]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
