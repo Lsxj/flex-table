@@ -1,3 +1,6 @@
+body{
+	background: #213248;
+}
 .hide {
 	display: none;
 }
@@ -6,8 +9,8 @@
 	table-layout: fixed;
 	width: 100%;
 	border-collapse: collapse;
-	color: #000;
-	background-color: #fafafa;
+	color: #60789b;
+	background-color: #24364e;
 	overflow-x: auto;
 }
 .table-content {
@@ -16,7 +19,7 @@
 .flex_table td, .flex_table th {
 	position: relative;
 	width: auto;
-	border: 1px solid #80c8fe;
+	border: 1px solid #22334a;
 	cursor: pointer;
 	transition: all .1s ease-in;
 }
@@ -29,8 +32,8 @@
 	z-index: 10;
 
 	line-height: 2em;
-	background-color: #e8e8e8;
-	color: #000;
+	background-color: #2d415d;
+	color: #334865;
 	white-space: initial;
 	cursor: text;
 }

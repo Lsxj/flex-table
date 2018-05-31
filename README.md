@@ -1,8 +1,10 @@
 # jQuery FlexTable
 ---
 jQuery FlexTable is a simple table library that help you create a flex table.
+
 It was inspired by https://dribbble.com/shots/1903644-Data-Grid/attachments/325113.
-See it in action here: http://lsxj.github.com/flex-table/example.html
+
+See it in action here: http://lsxj.github.com/flex-table/index.html
 
 
 
